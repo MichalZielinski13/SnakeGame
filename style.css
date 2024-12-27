@@ -16,18 +16,18 @@ body {
 .game {
   width: 100vmin;
   height: 100vmin;
-  background-color: green;
+  background-color: rgb(20, 20, 136);
   display: grid;
   grid-template-rows: repeat(21, 1fr);
   grid-template-columns: repeat(21, 1fr);
 }
 
 .snake {
-  background-color: blue;
+  background-color: rgb(29, 172, 36);
   border: 0.25vmin solid black;
 }
 
 .food {
-  background-color: red;
+  background-color: rgb(246, 255, 0);
   border: 0.25vmin solid black;
 }
